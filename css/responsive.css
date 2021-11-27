@@ -20,6 +20,9 @@
     }
 }
 @media (min-width: 1920px){
+    .flex-img .logo-img{margin:0 auto 34px}
+    .flex-img  .box-img a{width:275px;height:275px}
+    .flex-img .box-img{gap:0 35px}
     .lst-item-bs{gap:85px}
     .item-bs .info-experts .text a{font-size:26px}
     .info-form-order__input .select span.value-show,.info-form-order__input input{font-size:20px;font-weight: initial;font-family: 'AVO';}
@@ -214,6 +217,7 @@
         .left-price:before{right:200px;    top: 56%;
         }
         .left-price{margin-bottom: 30px;}
+        .price-show-km .left-price{margin:0 auto 20px;float:initial}
         .item-prd_img{height: 140px;}
         .source-news_item{margin-right: 20px;}
         .list-newspapers .img{    width:auto;    height: 80px;}
@@ -241,9 +245,16 @@
             .box-cart-product .box-cantact{transform:translate(0)}
             .left-price .select{width: 300px;font-size: 20px;}
             .lst-social a{margin-right: 15px;}
+            .flex-img .box-img a{width:180px;height:180px}
+            .flex-img{gap:10px}
+            .flex-img .logo-img{max-width:200px}
+            .price-show-km .right-price .item{padding:20px 80px;font-size: 18px;}
     }
     
     @media (max-width: 800px) {
+        .flex-img{display:block}
+        .flex-img .left-img{margin-bottom:20px}
+        .flex-img .logo-img{max-width:200px}
         .price-show{display: block;}
         .slider-certification{padding:0 48px}
         .slider-certification .slider .item{margin-bottom:42px}
@@ -445,8 +456,10 @@
 .fixed-right ul li.email a{background-position: 0px -178px;}
 .price-show-km .right-price{align-content: center;text-align: center;padding: 20px 0;}
 .price-show-km .right-price span,.price-show-km .right-price p{font-size: 18px;}
+.flex-img .box-img a{width:180px;height:180px}
     }
         @media (max-width: 448px) {
+            .flex-img .box-img a{width:120px;height:120px}
             .price-show-km .right-price{flex-direction: column;}
             .ps p{font-size:14px}
             .from-sccess h3{font-size:16px;text-align:center}
